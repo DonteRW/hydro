@@ -2,7 +2,7 @@
 ###############################################################################
 Author: Nicholas Elmer (UAH/SPoRT)
 Date: July 2016
-Name: WRF-Hydro_reorder_lakes.py
+Name: nje_WRF-Hydro_reorder_lakes.py
 Version: 1.0
 
 Description:
