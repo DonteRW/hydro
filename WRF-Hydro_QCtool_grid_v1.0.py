@@ -645,15 +645,12 @@ if __name__ == '__main__':
     currentLake = 1  # must match filename
     
     # specify domain and data path
-    domain = 'NorthAlabama'
-    settype = 'WRF-Hydro_routing-grid_100m'
-    hydrodata = '\Users\\nelmer\Documents\\MyResearch\\WRF-Hydro\\Data\\GIStool\\NorthAlabama\\PythonTool_1kmShift_test'
-    lakepath = hydrodata    
+    hydrodata = '.'
     lakename = 'lakes.shp'
     
     # define path to files
-    gridpath = os.join(hydrodata,'GIStool',domain,settype)
-    lakepath = os.join(hydrodata,'GIStool',domain)
+    gridpath = os.join(hydrodata)
+    lakepath = os.join(hydrodata)
     lakefile = os.join(lakepath, lakename)
     
     # run the widget
