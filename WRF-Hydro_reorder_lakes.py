@@ -120,10 +120,8 @@ def main(filepath, inputgrid_suffix, outputgrid_suffix, newLakefile):
 
 if __name__ == '__main__':
     #specify filepath and filenames
-    filepathA = '\Users\\nelmer\Documents\\MyResearch\\WRF-Hydro\\Data\\GIStool'
-    filepathB = 'NorthAlabama\\WRF-Hydro_routing-grid_100m'
-    filepath = os.join(filepathA, filepathB)
+    filepath = os.join('.')
     newLakefile = 'LAKEPARMnew.TBL'
-    ingrid = '_QC'
-    outgrid = '_reorder'
-    main(filepath, ingrid, outgrid, newLakefile)
+    inputgrid_suffix = '_QC'
+    outputgrid_suffix = '_reorder'
+    main(filepath, inputgrid_suffix, outputgrid_suffix, newLakefile)
