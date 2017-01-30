@@ -2,7 +2,7 @@
 ###############################################################################
 Author: Nicholas Elmer (UAH/SPoRT)
 Date: July 2016
-Name: WRF-Hydro_QCtool_grid.py
+Name: nje_WRF-Hydro_QCtool_grid.py
 Version: 1.0
 
 Description:
